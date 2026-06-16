@@ -1,0 +1,133 @@
+body{
+    background-color: beige;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(131, 80, 5);
+    color: white;
+    height: 90px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header:hover{
+    background-color: rgb(100, 60, 0);
+}
+
+/* NAV */
+
+nav{
+    background-color: burlywood;
+    border-bottom: 2px solid black;
+    padding: 15px;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* TITULOS */
+
+h2{
+    color: brown;
+    text-align: center;
+}
+
+h3{
+    color: rgb(131, 80, 5);
+}
+
+/* TEXTO */
+
+p{
+    color: black;
+    font-size: 18px;
+}
+
+/* SECCIONES */
+
+section{
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* IMAGENES */
+
+.imagen-principal{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+article{
+    text-align: center;
+    margin-top: 15px;
+}
+
+article img{
+    width: 180px;
+    height: 250px;
+}
+
+section img{
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+/* FORMULARIO */
+
+form{
+    text-align: left;
+}
+
+input,
+textarea{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: rgb(131, 80, 5);
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+/* ASIDE */
+
+aside{
+    background-color: lightgray;
+    min-height: 500px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(131, 80, 5);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
